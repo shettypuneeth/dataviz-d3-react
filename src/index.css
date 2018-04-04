@@ -1,0 +1,82 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tabs {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #dfe6e9;
+}
+
+.tab {
+  padding: 12px 20px;
+  font-size: 15px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.active {
+  background: #f1f2f6;
+  border-bottom: 2px solid #e67e22;
+}
+
+.header {
+  padding: 15px 20px;
+  background: #ff793f;
+  color: #FFF;
+}
+
+.demo-title {
+  padding: 12px 20px;
+  color: #2c3e50;
+  font-size: 15px;
+  border-bottom: 1px solid #dfe6e9;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.svg-scene {
+  transform: scale3d(0.9, 0.9, 1);
+  transition: transform 2s ease-out;
+  transform-origin: 50% 10% 0px;
+}
+
+.axis--y .domain,
+.axis .tick:nth-child(2n - 1) text {
+  display: none;
+}
+
+.axis--x .domain {
+  fill: #e7e7e7;
+  stroke: none;
+}
+
+.axis .tick line {
+  stroke: #fff;
+}
+
+.line path {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
