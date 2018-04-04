@@ -1,4 +1,4 @@
-# Datavisualisations with D3 and React
+# Data visualisations with D3 and React
 
 ## Getting Started
 
